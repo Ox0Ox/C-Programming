@@ -293,7 +293,7 @@ int dequeueArray(struct ArrayQueue* queue) {
 }
 
 // ----- Queue using Linked List -----
-// We can reuse the SLL_Node structure. We need front and rear pointers.
+// We can reuse the SLL_Node structure with front and rear pointers.
 struct LLQueue {
     struct SLL_Node *front, *rear;
 };
